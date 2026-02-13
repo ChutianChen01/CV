@@ -1,9 +1,9 @@
-**Chutian Chen**  
-\+1 300 300 3000 **∙** czc6350@psu.edu  
+# Chutian Chen
++1 300 300 3000 **∙** czc6350@psu.edu  
 [Adipose](https://i.ytimg.com/vi/lczOrJjW4Dk/maxresdefault.jpg)
 **EDUCATION**  
 **The Pennsylvania State University**	   Aug 2025 – Present  
-***Ph.D. Student in Biochemistry, Microbiology, and Molecular Biology (BMMB)***	University Park, PA, USA
+***Graduate Student in Biochemistry, Microbiology, and Molecular Biology (BMMB)***	University Park, PA, USA
 
 **Duke Kunshan University (DKU) / Duke University (Duke) Dual Degree Undergraduate Program**	  Aug 2021 – May 2025  
 ***B.S. in Molecular Bioscience (Cell and Molecular Biology Track, by DKU)***	Kunshan, China  
