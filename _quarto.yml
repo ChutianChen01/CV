@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Chutian Chen"
+  description: "Graduate Student in Biochemistry, Microbiology, and Molecular Biology"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Blog"
+        href: blog.qmd
+    right:
+      - icon: github
+        href: https://github.com/ChutianChen01
+      - icon: envelope
+        href: mailto:czc6350@psu.edu
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 2

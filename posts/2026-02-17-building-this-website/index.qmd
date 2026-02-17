@@ -1,0 +1,82 @@
+---
+title: "Building This Website with Quarto"
+author: "Chutian Chen"
+date: "2026-02-17"
+categories: [web development, quarto, github actions]
+description: "How I created this personal website using Quarto and automated deployment with GitHub Actions"
+---
+
+## Introduction
+
+I recently transitioned my CV website from Jekyll to Quarto, a modern scientific and technical publishing system. This post describes the process and rationale behind the migration.
+
+## Why Quarto?
+
+Quarto offers several advantages for academic and scientific websites:
+
+1. **Unified authoring**: Create documents, presentations, websites, and books using the same system
+2. **Multiple language support**: Works seamlessly with R, Python, Julia, and Observable
+3. **Professional themes**: Built-in themes optimized for readability
+4. **Blog support**: Easy to add and manage blog posts
+5. **Academic-friendly**: Excellent support for citations, equations, and code
+
+## Setting Up the Website
+
+### Project Structure
+
+The Quarto website uses a simple structure:
+
+```
+.
+├── _quarto.yml          # Main configuration file
+├── index.qmd            # CV homepage
+├── blog.qmd             # Blog listing page
+├── posts/               # Blog posts directory
+│   └── 2026-02-17-building-this-website/
+│       └── index.qmd
+└── styles.css           # Custom styling
+```
+
+### Configuration
+
+The `_quarto.yml` file defines the website structure, including navigation, theme, and output settings. I chose the Cosmo theme for its clean, modern appearance.
+
+### Creating Content
+
+Each page is written in Quarto markdown (`.qmd` files), which supports:
+
+- Standard markdown formatting
+- YAML metadata headers
+- Code blocks with execution
+- Mathematical equations
+- Cross-references and citations
+
+## Automated Deployment
+
+To automatically deploy the website to GitHub Pages whenever I push changes, I set up a GitHub Actions workflow. This workflow:
+
+1. Checks out the repository
+2. Installs Quarto
+3. Renders the website
+4. Deploys the generated files to GitHub Pages
+
+The entire process is automated and requires no manual intervention.
+
+## Customization
+
+I added custom CSS to enhance the visual presentation, particularly for the contact information and overall spacing. The website maintains a professional appearance suitable for academic purposes while remaining easy to navigate.
+
+## Conclusion
+
+Quarto provides an excellent platform for academic websites. The combination of simplicity, power, and automated deployment makes it ideal for maintaining a personal website alongside research blogging. The transition from Jekyll was straightforward, and the result is a more maintainable and feature-rich website.
+
+## Next Steps
+
+Future improvements I'm considering:
+
+- Adding a publications page
+- Creating posts about my research projects
+- Integrating interactive visualizations using Observable
+- Adding a resources section for lab protocols and code
+
+If you're interested in creating a similar website, check out the [Quarto documentation](https://quarto.org/) to get started.
